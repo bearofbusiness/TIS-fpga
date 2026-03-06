@@ -1,2 +1,124 @@
-# Mac stuff
+# =========================
+
+# Vivado
+
+# =========================
+
+# Generated project directories
+
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.xpr.user/
+
+# Logs and reports
+
+*.log
+*.jou
+*.str
+*.pb
+*.wdb
+*.rpx
+
+# Temporary or auto-generated files
+
+*.backup.*
+*.tmp
+*.Xil/
+
+# Simulation outputs
+
+*.vcd
+*.wlf
+*.ghw
+
+# Vivado-generated project files (optional to ignore)
+
+# Many teams regenerate the project with Tcl instead
+
+*.xpr
+*.xpr.user
+
+# IP cache
+
+ip_cache/
+
+# =========================
+
+# Vitis / SDK
+
+# =========================
+
+.sdk/
+.vitis/
+.metadata/
+
+# =========================
+
+# Quartus (if you ever use Intel FPGAs)
+
+# =========================
+
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.qdf
+*.sopcinfo
+*.jdi
+*.sof
+*.pof
+*.rpt
+
+# =========================
+
+# General FPGA bitstreams
+
+# =========================
+
+*.bit
+*.bin
+*.mcs
+
+# =========================
+
+# Editor / OS junk
+
+# =========================
+
+# Linux
+
+*~
+*.swp
+*.swo
+
+# Windows
+
+Thumbs.db
+Desktop.ini
+
+# Mac
+
 .DS_Store
+
+# VSCode
+
+.vscode/
+
+# JetBrains (IntelliJ etc.)
+
+.idea/
+
+# =========================
+
+# Build systems / misc
+
+# =========================
+
+build/
+dist/
+out/
